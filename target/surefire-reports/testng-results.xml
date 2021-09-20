@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-10T10:44:49 IST" name="Suite1" finished-at="2021-08-10T10:45:02 IST" duration-ms="12814">
+    <groups>
+    </groups>
+    <test started-at="2021-08-10T10:44:49 IST" name="Test Mapping" finished-at="2021-08-10T10:45:02 IST" duration-ms="12814">
+      <class name="com.MyTests.LoginTest">
+        <test-method is-config="true" signature="setUpMethod(java.lang.String)[pri:0, instance:com.MyTests.LoginTest@1de5f259]" started-at="2021-08-10T10:44:49 IST" name="setUpMethod" finished-at="2021-08-10T10:45:01 IST" duration-ms="12537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.MyTests.LoginTest@1de5f259]" started-at="2021-08-10T10:45:01 IST" name="verifyLoginPageTitleTest" finished-at="2021-08-10T10:45:01 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.MyTests.LoginTest@1de5f259]" started-at="2021-08-10T10:45:01 IST" name="tearDown" finished-at="2021-08-10T10:45:02 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTests.LoginTest -->
+    </test> <!-- Test Mapping -->
+  </suite> <!-- Suite1 -->
+</testng-results>
